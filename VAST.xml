@@ -1,0 +1,285 @@
+<VAST
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="4.0">
+    <Ad id="BEOD17852H0008">
+        <InLine>
+            <AdSystem>
+                <![CDATA[BehoAdServer]]>
+            </AdSystem>
+            <AdTitle>
+                <![CDATA[BEOD17852H0008]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[Audio Fallback Ad]]>
+            </Description>
+            <Error>
+                <![CDATA[]]>
+            </Error>
+            <Impression>
+                <![CDATA[]]>
+            </Impression>
+            <Creatives>
+                <Creative id="generic-creative-video" sequence="1">
+                    <Linear>
+                        <Duration>00:00:15:000</Duration>
+                        <MediaFiles>
+                            <MediaFile id="audio_beho" type="audio/mpeg" bitrate="128" delivery="progressive" tracks="2.0">
+                                <![CDATA[https://s.jiosaavn.com/ads/2025/cdnmaster/LnZSD120325154839_Agnostic_audio_1.mp3]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <AdParameters>
+                            <campaignId>
+                                <![CDATA[BELI85256H0008]]>
+                            </campaignId>
+                            <internalTrackingId>
+                                <![CDATA[BEOD17852H0008BELI85256H0008BECAT85539H0008]]>
+                            </internalTrackingId>
+                            <spotDuration>00:05:00.000</spotDuration>
+                            <initialDuration>00:00:00.000</initialDuration>
+                            <SkipOffset>
+                                <![CDATA[]]>
+                            </SkipOffset>
+                            <ad_orientation>
+                                <![CDATA[]]>
+                            </ad_orientation>
+                            <ctaButton>
+                                <ctaText>
+                                    <![CDATA[]]>
+                                </ctaText>
+                                <ctaLink>
+                                    <![CDATA[]]>
+                                </ctaLink>
+                                <ctaClickTracker>
+                                    <![CDATA[]]>
+                                </ctaClickTracker>
+                            </ctaButton>
+                            <Friction>
+                                <name>Hastinapur</name>
+                            </Friction>
+                        </AdParameters>
+                        <TrackingEvents/>
+                        <TrackingEvents/>
+                    </Linear>
+                </Creative>
+                <Creative id="companion-banner">
+                    <CompanionAds required="all">
+                        <Companion id="c300x250" adSlotID="Companion" width="300" height="250">
+                            <HTMLResource >
+                                <![CDATA[<html>
+                                                                                                      <head>
+                                                                                                        <title>Overlay Double</title>
+                                                                                                        <meta charset="utf-8" />
+                                                                                                        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+                                                                                                        <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet" />
+                                                                                                        <style>
+                                                                                                          * {
+                                                                                                            border: none;
+                                                                                                            box-sizing: border-box;
+                                                                                                            margin: 0;
+                                                                                                            outline: none;
+                                                                                                            padding: 0;
+                                                                                                            font-family: Lato !important;
+                                                                                                          }
+
+                                                                                                          html,
+                                                                                                          body {
+                                                                                                            height: 100%;
+                                                                                                            font-family: "Lato", sans-serif;
+                                                                                                            background-color: transparent;
+                                                                                                          }
+
+                                                                                                          .image {
+                                                                                                            position: fixed;
+                                                                                                            top: 0;
+                                                                                                            opacity: 0.9;
+                                                                                                            filter: brightness(0.2);
+                                                                                                            left: 0;
+                                                                                                            width: 100vw;
+                                                                                                            height: 100vh;
+                                                                                                            z-index: 0;
+                                                                                                            transform: scale(1.1);
+                                                                                                          }
+
+                                                                                                          #max-wrapper {
+                                                                                                            top: 0;
+                                                                                                            position: absolute;
+                                                                                                            align-items: center;
+                                                                                                            justify-content: center;
+                                                                                                            height: 100%;
+                                                                                                            width: 100%;
+                                                                                                            display: flex;
+                                                                                                          }
+
+                                                                                                          #max-container {
+                                                                                                            display: flex;
+                                                                                                            align-items: center;
+                                                                                                            justify-content: center;
+                                                                                                            flex-direction: column;
+                                                                                                            width: 100%;
+                                                                                                          }
+
+                                                                                                          .animated-box {
+                                                                                                            background: radial-gradient(circle at center top, #0f927c 1%, #042a24 42%, #000000 75%);
+                                                                                                            border-radius: 30px 30px 0 0;
+                                                                                                            overflow: hidden;
+                                                                                                            animation: expandBox 0.7s ease-out forwards;
+                                                                                                            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+                                                                                                            display: flex;
+                                                                                                            flex-direction: column;
+                                                                                                            align-items: center;
+                                                                                                            justify-content: end;
+                                                                                                            bottom: 0;
+                                                                                                            position: absolute;
+                                                                                                          }
+
+                                                                                                          @keyframes expandBox {
+                                                                                                            0% {
+                                                                                                              height: 0;
+                                                                                                              transform: translateY(100%);
+                                                                                                              opacity: 0;
+                                                                                                            }
+                                                                                                            100% {
+                                                                                                              height: 67vh;
+                                                                                                              transform: translateY(0);
+                                                                                                              opacity: 1;
+                                                                                                            }
+                                                                                                          }
+
+                                                                                                          #max-body {
+                                                                                                            margin-top: 1.5em;
+                                                                                                            width: 100%;
+                                                                                                            text-align: center;
+                                                                                                          }
+
+                                                                                                          #max-cta {
+                                                                                                            display: block;
+                                                                                                            width: 92vw;
+                                                                                                            margin: 1em;
+                                                                                                            padding: 1em 3em;
+                                                                                                            background: #01b598;
+                                                                                                            border-radius: 9px;
+                                                                                                            color: #fff;
+                                                                                                            font-size: 1em;
+                                                                                                            text-transform: uppercase;
+                                                                                                            text-align: center;
+                                                                                                            text-decoration: none;
+                                                                                                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                                                                                          }
+                                                                                                          #max-cta2 {
+                                                                                                            display: block;
+                                                                                                            width: 92vw;
+                                                                                                            margin: 1em 1em 2em 1em;
+                                                                                                            padding: 1em 3em;
+                                                                                                            border-radius: 9px;
+                                                                                                            color: #01b598;
+                                                                                                            font-size: 1em;
+                                                                                                            text-align: center;
+                                                                                                            text-decoration: none;
+                                                                                                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                                                                                          }
+
+                                                                                                          #dismiss {
+                                                                                                            position: absolute;
+                                                                                                            z-index: 5;
+                                                                                                            font-size: 3vw;
+                                                                                                            background-color: #2bc5b4;
+                                                                                                            color: lightgray;
+                                                                                                            padding: 12px 8px;
+                                                                                                            top: 2vw;
+                                                                                                            right: 2vw;
+                                                                                                            border-radius: 999px;
+                                                                                                            display: none;
+                                                                                                          }
+
+                                                                                                          .trackers {
+                                                                                                            display: none;
+                                                                                                          }
+
+                                                                                                          .image-wrapper {
+                                                                                                            display: flex;
+                                                                                                            flex-direction: column;
+                                                                                                            align-items: center;
+                                                                                                            justify-content: center;
+                                                                                                            margin-top: 1.2em;
+                                                                                                            width: 100%;
+                                                                                                            position: absolute;
+                                                                                                            top: 1.5rem;
+                                                                                                          }
+
+                                                                                                          .headline-text {
+                                                                                                            color: white;
+                                                                                                            font-size: 1.2em;
+                                                                                                            font-weight: bold;
+                                                                                                            text-align: center;
+                                                                                                            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+                                                                                                            margin-bottom: 0.4em;
+                                                                                                          }
+                                                                                                          .normal-text {
+                                                                                                            color: white;
+                                                                                                            width: 300px;
+                                                                                                            font-weight: 700;
+                                                                                                            font-style: Bold;
+2025-07-23 11:29:35.211 16138-16189 DaastLoader:daast       com.jio.media.jiobeats               I          font-size: 20px;
+                                                                                                            line-height: 100%;
+                                                                                                            letter-spacing: 0%;
+                                                                                                            text-align: center;
+                                                                                                            vertical-align: middle;
+                                                                                                          }
+
+                                                                                                          .header-image {
+                                                                                                            height: 250px;
+                                                                                                            max-height: 250px;
+                                                                                                            display: block;
+                                                                                                          }
+                                                                                                          .header-image {
+                                                                                                            display: block;
+                                                                                                          }
+                                                                                                          .highlight {
+                                                                                                            color: #01b598;
+                                                                                                            font-weight: bold;
+                                                                                                          }
+                                                                                                        </style>
+                                                                                                      </head>
+
+                                                                                                      <body>
+                                                                                                        <img class="trackers" src="www.jiosaavn.com" />
+                                                                                                        <img class="trackers" src="www.jiosaavn.com" />
+                                                                                                        <img class="trackers" src="www.jiosaavn.com" />
+                                                                                                        <img class="trackers" src="www.jiosaavn.com" />
+                                                                                                        <img class="trackers" src="www.jiosaavn.com" />
+
+                                                                                                        <div class="image"></div>
+
+                                                                                                        <div id="max-wrapper">
+                                                                                                          <div id="max-container">
+                                                                                                            <div class="animated-box">
+                                                                                                              <div id="max-body">
+                                                                                                                <div class="image-wrapper">
+                                                                                                                  <img src="https://s.jiosaavn.com/ads/2025/cdnmaster/tH_LD110725153524_logo.png" alt="Logo Image" class="logo" />
+                                                                                                                  <img src="https://s.jiosaavn.com/ads/2025/cdnmaster/-vHuD110725153534_Pro_Box.webp" alt="Gift Image" class="header-image" />
+                                                                                                                  <div class="normal-text">
+                                                                                                                    You've Unlocked JioSaavn <span class="highlight">PRO</span> for <span class="highlight">₹19</span> for <span class="highlight">2 months</span>
+                                                                                                                  </div>
+                                                                                                                </div>
+
+                                                                                                                <a onclick="window.location.href='saavn://view/playlist/AARQAEQIBwBdQVsFSg_'" id="max-cta">Explore</a>
+                                                                                                                <a onclick="window.location.href='saavn://ad/close/1020'" id="max-cta2">Not interested</a>
+                                                                                                              </div>
+                                                                                                            </div>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                      </body>
+                                                                                                    </html>]]>
+                            </HTMLResource>
+                            <CompanionClickThrough>
+                                <![CDATA[]]>
+                            </CompanionClickThrough>
+                            <CompanionImpression>                                                                                                                  <![CDATA[https://saavn.com/imnpression]]>
+                            </CompanionImpression>
+                        </Companion>
+                        <TrackingEvents/>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
